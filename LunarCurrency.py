@@ -102,7 +102,7 @@ botao = Button(window, text="Buscar cotações", command=get_currency)
 botao.grid(column=0, row=1, padx=10, pady=10)
 
 #Labels
-texto = Label(window, text="Clique no botão para ver a cotação das moedas")
+texto = Label(window, text="Clique no botão para ver a cotação das moedas(Updated)")
 texto.grid(column=0, row=0, padx=10, pady=10)
 texto_resposta = Label(window, text="")
 texto_resposta.grid(column=0, row=2, padx=10, pady=10)
