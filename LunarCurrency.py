@@ -36,7 +36,7 @@ def check_for_updates(local_version_file="version.txt"):
         return None
 
 # Função para baixar o script atualizado
-def download_new_script(new_version, local_script="meu_script.py", local_version_file="version.txt"):
+def download_new_script(new_version, local_script="LunarCurrency.py", local_version_file="version.txt"):
     try:
         # Baixa o novo script
         response = requests.get(URL_SCRIPT)
